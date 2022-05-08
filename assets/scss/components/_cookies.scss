@@ -1,0 +1,38 @@
+.section__4 {
+    
+    .container-fluid-cookie {  
+        height: 100%;
+        .img-wrapper {
+            
+            position: relative;
+            text-align: center;
+            
+            
+            img {
+                width: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+            }
+
+            .circle__text-wrapper {
+                background-color: $white;
+                width: 25rem;
+                height: 25rem;
+                border-radius: 50%;
+                
+                
+                position: absolute;
+                top: 75%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+
+                
+            }
+        }
+    }
+
+        
+    
+}

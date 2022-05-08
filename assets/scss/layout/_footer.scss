@@ -1,0 +1,52 @@
+.rezervacije {
+    background-color: #473E33;
+    margin-top: 10rem;
+    padding-top: 8rem;
+
+    i {
+        font-size: 2.5rem;
+       
+    }
+
+    form {
+        input {
+            background-color: #473E33;
+        }
+
+        ::placeholder {
+            color: white;
+        }
+
+        select {
+            background-color: #473E33;
+            color: white;
+        }
+    }
+
+    textarea {
+        background-color: #473E33;
+        color: white;
+    }
+
+}
+
+.novicnik {
+    background-color: #473E33;
+
+    .container-fluid {
+        background-color: #F8F0EB;
+
+        .container {
+            
+            input {
+                padding: 0.9rem;
+                border-radius: 0;
+                background-color: inherit;
+            }
+        }
+    }
+}
+
+footer {
+    background-color: #473E33;
+}

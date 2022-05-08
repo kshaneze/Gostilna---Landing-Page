@@ -1,0 +1,34 @@
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+// FONT AWESOME
+
+// IMPORT THE ABSTRACT 
+@import "abstracts/fonts";
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+// IMPORT THE BASE 
+@import "base/animation";
+@import "base/base";
+@import "base/helpers";
+@import "base/typography";
+
+// IMPORT THE COMPONENTS 
+@import "components/anchor";
+@import "components/button";
+@import "components/cookies";
+@import "components/form";
+@import "components/gift_voucher";
+@import "components/news";
+@import "components/products";
+@import "components/quote";
+@import "components/slider";
+@import "components/table";
+
+// IMPORT THE LAYOUT
+@import "layout/cover";
+@import "layout/footer";
+@import "layout/header";
+@import "layout/shop";
+
