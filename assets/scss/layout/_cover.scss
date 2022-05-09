@@ -3,10 +3,11 @@
     background: linear-gradient(to bottom, white 0%, white 20%, #F8F0EB 20%, #F8F0EB 75%, white 75%, white 100% );
     .last-col {
         position: relative;
+        z-index: 1;
     }
 
     .img-zlica {
-        position: relative;
+
     }
 
     .img-eu {
@@ -33,16 +34,7 @@
     .col-text {
         padding: 13rem 0 0 8.5rem;
     }
-    .link-button {
-        
-        a {
-            padding-left: 0.9rem;
-            text-decoration: none;
-            color: inherit;
-            font-size: 1.1rem;
-        }
-    }
-
+    
     
 }
 
@@ -68,10 +60,10 @@
 }
 
 .section__4 {
-    background: linear-gradient(to bottom, white 0%, white 50%, #F8F0EB 50%, #F8F0EB 100%);
+    background:  linear-gradient(to bottom, white 0%, white 5%, #F8F0EB 5%, #F8F0EB 80%, white 80%, white 100%);
    
     .container-fluid-100 {
-        background-color: #F8F0EB;
+        
         margin-bottom: 10rem;
         width: 95%;
         max-height: 63rem;
@@ -96,13 +88,19 @@
 }
 
 .prepustite__se--trenutkom {
+    margin-top: 10rem;
+    
     .container-fluid-100-right {
         float: right;
+       
+    }
+    .first__col-5 {
+        padding-left: 10rem;
     }
 }
 
 .nagrade {
-
+ margin-top: 10rem;
 }
 
 

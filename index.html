@@ -11,7 +11,7 @@
 
     <script src="/node_modules/bootstrap/js/src/"></script>
 
-    
+    <script src="/assets/js/script.js" defer></script>
 </head>
 <body>
 <!-- FIRST SECTION HEADING  -->
@@ -20,7 +20,7 @@
     <div class="container-fluid">  
         <nav class="navbar navbar-expand navbar-light border-bottom border-3 border-dark mx-auto py-5">
             <div class="flex-grow-1"><!--spacer--></div>
-                <a class="navbar-brand brand w-50" href="#">
+                <a class="navbar-brand brand" href="#">
                     <img class="img-fluid" src="/assets/img/logo.png" alt="">
                 </a>
                 
@@ -39,6 +39,17 @@
                                 <i class="fa-solid fa-basket-shopping"></i>
                                 </a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <div class="menu-btn">
+                                        <div class="menu-btn__burger">
+
+                                        </div>
+                                      </div>
+                                </a>
+                            </li>
+
+                            
                     </ul>
                 </div>
         </nav>
@@ -54,21 +65,66 @@
             <div class="row text-center py-3">
                 <div class="col border-end border-1 border-dark">
                     <h4 class="fw-bold">Kulinarika in vino</h4>
-                    <p class="text-muted">Tipična slovenska gostilna as kuhinjo prejšnjih rodov, a s pridihom sodobnega casa</p>
+                    <p class="text-muted px-4">Tipična slovenska gostilna as kuhinjo prejšnjih rodov, a s pridihom sodobnega casa</p>
                 </div>
                 <div class="col border-end border-1 border-dark">
                     <h4 class="fw-bold">Zgodba</h4>
-                    <p class="text-muted">Tipična slovenska gostilna as kuhinjo prejšnjih rodov, a s pridihom sodobnega casa</p>
+                    <p class="text-muted px-4">Negujemo tradicijo domačij na podeželju
+                        in skrbimo za hrano za dušo.</p>
                 </div>
                 <div class="col border-end border-1 border-dark">
                     <h4 class="fw-bold">Srečanja</h4>
-                    <p class="text-muted">Tipična slovenska gostilna as kuhinjo prejšnjih rodov, a s pridihom sodobnega casa</p>
+                    <p class="text-muted px-4">Srečanje je trenutek odnosa, veselja
+                        in sreče, ki jih delimo z drugimi.</p>
                 </div>
                 <div class="col">
-                    <h4 class="fw-bold">Trznica</h4>
-                    <p class="text-muted">Tipična slovenska gostilna as kuhinjo prejšnjih rodov, a s pridihom sodobnega casa</p>
+                    <h4 class="fw-bold">Tržnica</h4>
+                    <p class="text-muted px-4">Radi prodajamo tisto, kar imamo doma.
+                        Sezonske surovine in izdelki domačih receptur.</p>
                 </div>
                 
+            </div>
+        </div>
+
+        <!--  -->
+
+        <div class="container-fluid-100-right">
+            <div class="navbar__menu-background menu-opend-closed">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="/assets/img/Gostilna Mihovec Oktober 2012 20.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-6 d-flex justify-content-center align-items-center">
+                        <div class="menu-list">
+                            <ul class="mb-5"> 
+                                <li>
+                                    <a href="#">Kulinarika in vino</a>
+                                </li>
+                                <li>
+                                    <a href="#">Zgodba</a>
+                                </li>
+                                <li>
+                                    <a href="#">O nas</a>
+                                </li>
+                                <li>
+                                    <a href="#">Srečanja</a>
+                                </li>
+                                <li>
+                                    <a href="#">Tržnica</a>
+                                </li>
+                                <li>
+                                    <a href="#">Darilni boni</a>
+                                </li>
+                                <li>
+                                    <a href="#">Novice in dogodki</a>
+                                </li>
+                                <li>
+                                    <a href="#">Rezervacije</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>     
             </div>
         </div>
 
@@ -80,8 +136,11 @@
     <div class="container-fluid">
         <div class="row align-items-center text-center w-100">
             <div class="col-3">
-                <h1 class="text-uppercase display-4 fw-normal">Domače malo</h1>
-                <button></button>
+                <h1 class="text-uppercase display-4 display-3-brown fw-normal">Domače malo</h1>
+
+                <div class="link-button mt-5">
+                    <span><img src="/assets/img/Group 2750.png" class="img-fluid" alt=""></span> <a href="#" class="fw-bold">Več</a>
+                </div>
             </div>
             <div class="col-6">
                 <img src="/assets/img/bread-burek.png" class="img-fluid w-100" alt="">
@@ -140,9 +199,13 @@
         <div class="row text-center justify-content-center">
 
             <div class="col-2 my-auto">
-                <h1 class="text-uppercase fw-normal">
-                    Samooskrba KOT NAČIN ŽIVLJENJA
+                <h1 class="text-uppercase fw-normal display-4-brown">
+                    SAMOOSKRBA KOT NAČIN ŽIVLJENJA
                 </h1>
+
+                <div class="link-button pt-5">
+                    <span><img src="/assets/img/Group 2750.png" class="img-fluid" alt=""></span> <a href="#" class="fw-bold">Zgodba</a>
+                </div>
             </div>
             <div class="col-7">
                 <img src="/assets/img/man-and-goat.png" class="img-fluid pic1" alt="">
@@ -180,7 +243,11 @@
 <section class="section__novice ">
     <div class="container-fluid border-bottom border-1 border-dark">
         <div class="row text-center py-3 border-top border-bottom border-dark">
-            <h1 class="fw-normal">NOVICE IN DOGODKI</h1>
+            
+            <div class="header-wrap d-flex justify-content-between align-items-center">
+                <h1 class="fw-normal p-0 m-0 w-100">NOVICE IN DOGODKI</h1>
+                <p class="p-0 m-0">ARHIV</p>
+            </div>
         </div>
 
         <div class="row border-top border-5 border-dark mt-1">
@@ -193,7 +260,9 @@
                         <h3 class="card-title fw-bold text-center py-4">Novica 1</h3>
                         <p class="card-text fw-light">Tipična slovenska gostilna s kuhinjo prejšnjih rodov, a s pridihom sodobnosti današnjega časa. Krušna peč in šank ob pozdravu, pogrnjene mize in polno spominov, so zagotovilo, da se boste pri nas počutili domače, a vse bo nekoliko drugače.
                         </p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <div class="link-button pt-1    ">
+                            <span><img src="/assets/img/Group 2750.png" class="img-fluid" alt=""></span> <a href="#" class="fw-bold">Več</a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -208,7 +277,9 @@
                         <h3 class="card-title fw-bold text-center py-4">Novica 2</h3>
                         <p class="card-text fw-light">Tipična slovenska gostilna s kuhinjo prejšnjih rodov, a s pridihom sodobnosti današnjega časa. Krušna peč in šank ob pozdravu, pogrnjene mize in polno spominov, so zagotovilo, da se boste pri nas počutili domače, a vse bo nekoliko drugače.
                         </p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <div class="link-button pt-1">
+                            <span><img src="/assets/img/Group 2750.png" class="img-fluid" alt=""></span> <a href="#" class="fw-bold">Več</a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -223,7 +294,9 @@
                         <h3 class="card-title fw-bold text-center py-4">Dogodek</h3>
                         <p class="card-text lh-normal fw-light">Tipična slovenska gostilna s kuhinjo prejšnjih rodov, a s pridihom sodobnosti današnjega časa. Krušna peč in šank ob pozdravu, pogrnjene mize in polno spominov, so zagotovilo, da se boste pri nas počutili domače, a vse bo nekoliko drugače.
                         </p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <div class="link-button pt-1">
+                            <span><img src="/assets/img/Group 2750.png" class="img-fluid" alt=""></span> <a href="#" class="fw-bold">Več</a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -256,10 +329,14 @@
             </div>
             <div class="col-5 first__col-5 text-start">
                 <div class="div">
-                    <h1 class="">
+                    <h1 class="display-4-black">
                         več kot 160 let<br> 
                         družinske<br> tradicije
                     </h1>
+
+                    <div class="link-button pt-1    ">
+                        <span><img src="/assets/img/Group 2750.png" class="img-fluid" alt=""></span> <a href="#" class="fw-bold">O nas</a>
+                    </div>
 
                     <div class="quote text-start mt-5">
                         <div class="quote__top-wraper">
@@ -288,7 +365,7 @@
         </div>
     </div>
 
-
+    <!-- DARILNI BON -->
     <div class="container-fluid-cookie w-100 g-0 ">
         <div class="img-wrapper">
 
@@ -296,10 +373,14 @@
 
             <div class="circle__text-wrapper">
                 <div class="mt-5 pt-5 my-auto">
-                    <h4 class="pt-5">PODARITE<br>
+                    <h4 class="pt-5 display-5-brown">PODARITE<br>
                     DARILNI BON</h4>
-                    <p class="px-5 mt-4">Podarite svojim bližnjim kulinarično doživetje in svoj čas – to povezuje in osrečuje.</p>
-                    <a href="#">Naročite</a>
+                    <p class="px-5 mt-4 fw-light">Podarite svojim bližnjim kulinarično doživetje in svoj čas – to povezuje in osrečuje.</p>
+
+
+                    <div class="link-button">
+                            <span><img src="/assets/img/Group 2750.png" class="img-fluid" alt=""></span> <a href="#" class="fw-bold">Naročite</a>
+                        </div>
                 </div>
             </div>
         </div>
@@ -311,7 +392,7 @@
         <div class="row text-center justify-content-center">
 
             <div class="col-2 my-auto">
-                <h1 class="text-uppercase fw-normal">
+                <h1 class="text-uppercase fw-normal display-4-brown">
                     Vina <br>naših dežel
                 </h1>
             </div>
@@ -431,9 +512,9 @@
 
             <div class="col-5 first__col-5 my-auto">
                 <div class="div">
-                    <h1 class="">
-                        več kot 160 let<br> 
-                        družinske<br> tradicije
+                    <h1 class="display-4-brown">
+                        prepustite se<br>
+                         trenutkom
                     </h1>
 
                     <div class="quote text-start mt-5">
@@ -474,7 +555,7 @@
 
 
 
-<section class="nagrade my-5">
+<section class="nagrade mb-5">
 
     <div class="container-fluid mx-auto">
         <div class="row text-center py-3 border-top border-bottom border-dark">
@@ -636,7 +717,7 @@
     <div class="container-fluid mx-auto">
         <div class="container mx-auto">
             <div class="row text-center py-3 border-bottom border-dark">
-                <h1 class="fw-normal text-black">REZERVACIJE</h1>
+                <h1 class="fw-normal h1-brown">NOVIČNIK</h1>
             </div>
         </div>
 
@@ -647,27 +728,27 @@
                     <p>Če želite ostati z nami v stiku, se naročite na naš novičnik. Tako boste lahko vpogledali v ozadje naše kuhinje in bili obveščeni o novostih. Ne bomo pa vas z njimi zasuvali.</p>
                 </div>
                 
-                <div class="col-9 ">
-                    <form class="row gy-2 align-items-center">
-                        <div class="col-sm-3">
-                          <label class="visually-hidden" for="specificSizeInputName">E-mail</label>
-                          <input type="email" class="form-control" id="specificSizeInputName" placeholder="E-mail">
-                        </div>
-                        <div class="col-sm-3">
-                          <label class="visually-hidden" for="specificSizeInputGroupUsername">Ime</label>
-                          <div class="input-group">
-                            <input type="text" class="form-control" id="specificSizeInputGroupUsername" placeholder="Ime">
-                          </div>
-                        </div>
-                        <div class="col-sm-3">
-                            <input type="text" class="form-control" id="specificSizeInputGroupUsername" placeholder="Priimek">
-                        </div>
-                            <div class="col-auto">
-                                <a href="#"> <img src="/assets/img/button-gold.png" class="img-fluid" alt=""></a>
-                          </div>
-                        </div>
+                        <div class="col-9 ">
+                            <form class="row gy-2 align-items-center">
+                                <div class="col-sm-3">
+                                <label class="visually-hidden" for="specificSizeInputName">E-mail</label>
+                                <input type="email" class="form-control" id="specificSizeInputName" placeholder="E-mail">
+                                </div>
+                                <div class="col-sm-3">
+                                <label class="visually-hidden" for="specificSizeInputGroupUsername">Ime</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="specificSizeInputGroupUsername" placeholder="Ime">
+                                </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <input type="text" class="form-control" id="specificSizeInputGroupUsername" placeholder="Priimek">
+                                </div>
+                                    <div class="col-auto">
+                                        <a href="#"> <img src="/assets/img/button-gold.png" class="img-fluid" alt=""></a>
+                                </div>
+                        </div> 
                         
-                      </form>
+                    </form>
                 </div>
             </div>
             </div>
@@ -682,31 +763,33 @@
 
             <div class="col border-end border-1 border-light">
                 <h4>Naslov</h4>
-                <p class="text-muted"> Gostilna Mivec</p>
-                <p class="text-muted"> Zgornje Dolsko 1</p>
-                <p class="text-muted"> 1000 Ljubljana</p>
+                <a href="https://www.google.com/maps/place/Gostilna+Mihovec/@46.1405556,14.4286111,15z/data=!4m5!3m4!1s0x0:0xd101650bdfd3825a!8m2!3d46.140597!4d14.4286704">
+                <p class="m-0 mt-4"> Gostilna Mivec</p>
+                <p class="m-0"> Zgornje Dolsko 1</p>
+                <p class=""> 1000 Ljubljana</p>
+            </a>
             </div>
 
             <div class="col border-end border-1 border-light">
                 <h4>Kontakt</h4>
-                <p class="text-muted"> M  031 111 111
+                <p class=""> M  031 111 111
                     
                     </p>
-                <p class="text-muted"> T  (01) 362 111 11</p>
-                <p class="text-muted"> E gostilna@siol.net</p>
+                <p class=""> T  (01) 362 111 11</p>
+                <p class=""> E gostilna@siol.net</p>
             </div>
             <div class="col border-end border-1 border-light">
                 <h4>Odpiralni čas</h4>
-                <p class="text-muted"> sreda - četrtek: 12.00 - 22.00
+                <p class=""> sreda - četrtek: 12.00 - 22.00
                 </p>
-                <p class="text-muted"> petek - sobota: 12.00 - 01.00</p>
-                <p class="text-muted"> nedelja: 11.00 - 18.00</p>
-                <p class="text-muted"> ponedeljek - torek: zaprto</p>
+                <p class=""> petek - sobota: 12.00 - 01.00</p>
+                <p class=""> nedelja: 11.00 - 18.00</p>
+                <p class=""> ponedeljek - torek: zaprto</p>
             </div>
 
             <div class="col border-end border-1 border-light">
                 <h4>Sledite nam</h4>
-                <p class="text-muted pt-5">Mojca Mihovec - Prva ženska prejemnica naziva “Obrtnica leta 2018”</p>
+                <p class="pt-5">Mojca Mihovec - Prva ženska prejemnica naziva “Obrtnica leta 2018”</p>
             </div>
             <div class="col">
                 <img src="/assets/img/evropska-unija.png" class="img-fluid" alt="">
@@ -727,6 +810,6 @@
 </footer>
 
     <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-    <script src="/assets/js/script.js"></script>
+    
 </body>
 </html>

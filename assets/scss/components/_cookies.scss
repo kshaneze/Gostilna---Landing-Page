@@ -28,8 +28,25 @@
                 left: 50%;
                 transform: translate(-50%, -50%);
 
-                
+                .link-button {
+                    
+                    a {
+                        padding-left: 0.5rem;
+                    }
+
+                    img {
+                        width: 2rem;
+                    }
+
+                    span {
+                        font-size: 1.5rem;
+                    }
+
+                }
+ 
             }
+
+            
         }
     }
 
