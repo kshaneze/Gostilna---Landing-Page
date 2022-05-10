@@ -1,3 +1,4 @@
+
 .container-fluid {
     width: 90%;
 }
@@ -13,8 +14,13 @@
         height: auto;
     }
 
+    .nav-item--btn {
+        position: fixed;
+        z-index: 1001;
+    }
     .menu-btn {
-        z-index: 150;
+        z-index: 1001;
+        position: fixed;
         position: relative;
         display: flex;
         justify-content: start;
@@ -26,7 +32,6 @@
         transition: all .5s ease-in-out;
 
         .menu-btn__burger {
-           
             width: 20px;
             height: 1px;
             background: black;
@@ -82,25 +87,33 @@ header {
     
 }
 
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
+
 
 // NAVIGATION MENU
 .navbar__menu-background {
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
+    bottom: 0;
+    right: 0;
     background-color: white;
-    
+    z-index: 1000;
 
-    
     transition: all .7s ease-in-out;
     
     .row {
         background-color: white;
         .col-6 {
             background-color: white;
-            z-index: 100;
+            z-index: 1000;
+
         }
     }
     
@@ -109,8 +122,9 @@ header {
     }
 
     .menu-list {
-        
+        z-index: 1000;
         li {
+            z-index: 1000;
             padding: 1rem;
            list-style: none;
 

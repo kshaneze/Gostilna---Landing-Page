@@ -100,7 +100,13 @@
 }
 
 .nagrade {
- margin-top: 10rem;
+    margin-top: 10rem;
+
+
+    .col-border {
+        height: 12rem;
+        border-right:  solid 0.1rem black;
+    }
 }
 
 

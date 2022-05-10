@@ -1,0 +1,48 @@
+
+    .btn {
+        width: 11.5rem;
+        border-radius: 0;
+        color: white;
+        position: relative;
+        font-size: 1.40rem;
+        font-weight: 600;
+    }
+
+
+    .btn::before,
+    .btn::after {
+        position: absolute;
+        content: '';
+        width: 11.5rem;
+        height: 0.2rem;
+        left: 0;
+    }
+
+    .btn::before {
+        transform: translateY(-14px);
+        
+    }
+
+    .btn::after {
+        transform: translateY(44px);
+    }
+
+
+.btn.btn-black {
+    background-color: black ;
+
+    &::before,
+    &::after {
+        background-color: black;
+    }
+}
+
+.btn.btn-gold {
+    background-color: #B18147 ;
+
+    &::before,
+    &::after {
+        background-color: #B18147;
+    }
+}
+
