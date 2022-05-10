@@ -51,7 +51,7 @@
                     </ul>
                 </div>
         </nav>
-        <div class="container-fluid w-100 border-bottom border-5 border-dark py-2">
+        <div class="container-fluid w-100 border-bottom border-5 border-dark py-2 d-sm-none d-none d-md-block">
             <div class="row text-uppercase ">
                 <div class="col-4 text-start">domače malo drugače</div>
                 <div class="col-4 text-center">gostilna</div>
@@ -59,13 +59,14 @@
             </div>
         </div>
 
-        <div class="container-fluid w-100 border-bottom border-1 border-dark">
+        <div class="container-fluid w-100 border-bottom border-1 border-dark d-sm-none d-none d-md-block">
             <div class="row text-center py-3">
                 <div class="col border-end border-1 border-dark">
                     <h4 class="fw-bold">Kulinarika in vino</h4>
                     <p class="text-muted px-4">Tipična slovenska gostilna as kuhinjo prejšnjih rodov, a s pridihom sodobnega casa</p>
                 </div>
-                <div class="col border-end border-1 border-dark">
+
+                <div class="col border-end border-1 border-dark ">
                     <h4 class="fw-bold">Zgodba</h4>
                     <p class="text-muted px-4">Negujemo tradicijo domačij na podeželju
                         in skrbimo za hrano za dušo.</p>
@@ -84,9 +85,19 @@
             </div>
         </div>
 
+
+        <section class="section-mobile d-block d-sm-block d-md-none border-top border-5 border-dark mt-1">
+            <h4>Zgodba</h4>
+            
+            <div class="container-fluid-100 w-100">
+                <img src="/assets/img/Rectangle 4.png" class="img-fluid w-100" alt="">
+            </div>
+            
+        </section>
+
         <!--  -->
 
-        <div class="container-fluid-100-right">
+        <div class="container-fluid-100-right d-sm-none d-none d-md-block">
             <div class="navbar__menu-background menu-opend-closed">
                 <div class="row">
                     <div class="col-6">
@@ -129,7 +140,7 @@
 </header>
 
 <!-- SECOND SECTION -->
-<section class="intro pt-5 mt-5">
+<section class="intro pt-5 mt-5 d-sm-none d-none d-md-block">
 
     <div class="container-fluid">
         <div class="row align-items-center text-center w-100">
@@ -160,8 +171,8 @@
             <div class="col-5">
                 <img src="/assets/img/fany-img-2.png" class="img-fluid" alt="">
             </div>
-            <div class="col-3 col-text">
-                <h4 class="fw-normal d-inline-block">SLOVENSKA 
+            <div class="col-4 col-text ">
+                <h4 class="fw-normal d-inline-block display-4-black">SLOVENSKA 
                     KUHINJA 
                     S PRIDIHOM 
                     SODOBNOSTI
@@ -187,7 +198,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4 text-end">
+            <div class="col-3 text-end">
                 <img src="/assets/img/fancy-img-1.png" class="img-fluid" alt="">
             </div>
         </div>
@@ -196,7 +207,7 @@
     <div class="container-fluid mx-auto pt-5 mt-5 picContainer">
         <div class="row text-center justify-content-center">
 
-            <div class="col-2 my-auto">
+            <div class="col-2 my-auto gx-1">
                 <h1 class="text-uppercase fw-normal display-4-brown">
                     SAMOOSKRBA KOT NAČIN ŽIVLJENJA
                 </h1>
@@ -238,7 +249,7 @@
 
 <!-- THIRD SECTION NOVICE -->
 
-<section class="section__novice ">
+<section class="section__novice d-sm-none d-none d-md-block">
     <div class="container-fluid border-bottom border-1 border-dark">
         <div class="row text-center py-3 border-top border-bottom border-dark">
             
@@ -306,7 +317,7 @@
 
 <!-- FOURTH SECTION  -->
 
-<section class="section__4 ">
+<section class="section__4 d-sm-none d-none d-md-block ">
 
     <div class="container-fluid">
         <div class="row">
@@ -370,7 +381,7 @@
             <img src="/assets/img/bread.png" class="img-fluid " alt="">
 
             <div class="circle__text-wrapper">
-                <div class="mt-5 pt-5 my-auto">
+                <div class="cookie-text">
                     <h4 class="pt-5 display-5-brown">PODARITE<br>
                     DARILNI BON</h4>
                     <p class="px-5 mt-4 fw-light">Podarite svojim bližnjim kulinarično doživetje in svoj čas – to povezuje in osrečuje.</p>
@@ -429,15 +440,14 @@
 </section>
 
 <!-- FOURTH SECTION  -->
-<section class="trznica mb-5">
+<section class="trznica mb-5 d-sm-none d-none d-md-block">
     <div class="container-fluid border-bottom border-1 border-dark">
         <div class="row text-center py-3 border-top border-bottom border-dark">
             <h1 class="fw-normal">TRŽNICA</h1>
         </div>
 
-        
-
-            <div class="row mx-auto my-auto justify-content-center border-top border-5 border-dark mt-1">
+            <div class="row row-carousel justify-content-center border-top border-5 border-dark mt-1 ">
+                
                 <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner" role="listbox">
         
@@ -603,73 +613,11 @@
                     </a>
                 </div>
               </div>
-
-            <!-- FIRST CARD
-            <div class="col-3 border-end border-1 border-dark">
-                <div class="card-deck">
-                    <div class="card border-0 ">
-                        <div class="wrapper-image">
-                        <img src="/assets/img/breskev-1000x1000_2.png" class="img-fluid" alt="">
-                        </div>
-                      <div class="card-body">
-                        <p class="card-text fw-light">Etiam non neque eu nunc egestas egesta</p>
-                        <p>34,99 EUR</p>
-                      </div>
-                    </div>
-                  </div>
-            </div>
-
-            SECOND CARD
-            <div class="col-3 border-end border-1 border-dark">
-                <div class="card-deck">
-                    <div class="card border-0">
-                        <div class="wrapper-image">
-                        <img src="/assets/img/marmelade-cvicek-190-ztr-1000x1000.png" class="img-fluid " alt="">
-                    </div>
-                      <div class="card-body">
-                        <p class="card-text fw-light">Etiam non neque eu nunc egestas egesta</p>
-                        <p>34,99 EUR</p>
-                        
-                      </div>
-                    </div>
-                  </div>
-            </div>
-
-            THIRD CARD
-            <div class="col-3 border-end border-1 border-dark">
-                <div class="card-deck">
-                    <div class="card border-0">
-                        <div class="wrapper-image">
-                        <img src="/assets/img/piskoti-vetrci-cimet-50-ztr-1000x1000.png" class="img-fluid" alt="">
-                    </div>
-                      <div class="card-body">
-                        <p class="card-text fw-light">Etiam non neque eu nunc egestas egesta</p>
-                        <p>34,99 EUR</p>
-                      </div>
-                    </div>
-                  </div>
-            </div>
-
-            FORUTH CARD
-            <div class="col-3">
-                <div class="card-deck">
-                    <div class="card border-0 ">
-                        <div class="wrapper-image">
-                        <img src="/assets/img/marmelade-modra-frankinja-190-ztr-1000x1000.png" class="img-fluid" alt="">
-                    </div>
-                      <div class="card-body">
-                        <p class="card-text fw-light">Etiam non neque eu nunc egestas egesta</p>
-                        <p>34,99 EUR</p>
-                      </div>
-                    </div>
-                  </div>
-            </div> -->
-            
-       
 </section>
 
 
-<section class="prepustite__se--trenutkom">
+<!-- SECTION PREPUSTITE SE TRENUTKOM -->
+<section class="prepustite__se--trenutkom d-sm-none d-none d-md-block">
 
     <div class="container-fluid-100 mx-0 g-0">
         <div class="row">
@@ -722,13 +670,13 @@
     
 </section>
 
-<div class="container-fluid-100-right text-end">
+<div class="container-fluid-100-right text-end d-sm-none d-none d-md-block">
     <img src="/assets/img/restoran.png" class="img-fluid" alt="">
 </div>
 
 
 
-<section class="nagrade mb-5">
+<section class="nagrade mb-5 d-sm-none d-none d-md-block">
 
     <div class="container-fluid mx-auto">
         <div class="row text-center py-3 border-top border-bottom border-dark">
@@ -773,7 +721,7 @@
 
 <!-- REZERVACIJE -->
 
-<section class="rezervacije">
+<section class="rezervacije d-sm-none d-none d-md-block">
     <div class="container-fluid mx-auto">
         <div class="row text-center py-3 border-top border-bottom border-light">
             <h1 class="fw-normal text-white">REZERVACIJE</h1>
@@ -885,7 +833,7 @@
 
 </section>
 
-<section class="novicnik pt-5">
+<section class="novicnik pt-5 d-sm-none d-none d-md-block">
     <div class="container-fluid mx-auto">
         <div class="container mx-auto">
             <div class="row text-center py-3 border-bottom border-dark">
@@ -928,7 +876,7 @@
     </div>
 </section>
 
-<footer class="py-5">
+<footer class="py-5 d-sm-none d-none d-md-block">
     <div class="container-fluid mx-auto border-1 border-top border-light mt-1 text-white">
 
         <div class="row text-center py-4 border-5 border-bottom border-light">
