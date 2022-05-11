@@ -42,15 +42,12 @@
     }
 }
 
-button {
-    display: none;
+// button {
+//     display: none;
    
-}
-
-// .col-md-3:hover  button {
-//     display: block;
-//     opacity: 1;
 // }
+
+
 
 @include media-breakpoint-down(xl) {
     .trznica {
