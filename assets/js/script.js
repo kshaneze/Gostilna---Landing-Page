@@ -18,22 +18,5 @@ menuBtn.addEventListener('click', function (e) {
 });
 
 
-// DISPLAYING V KOSARICO BUTTON ON HOVER 
 
-// const carouselItem = document.querySelector('.carousel-item');
-// const btnBuy = document.querySelector('.btn-black');
-// const product = document.querySelector('.product');
-
-
-// carouselItem.addEventListener('mouseover', function(event) {
-//     if(event.target.classList.contains('product')) {
-       
-       
-        
-//     }
-
-
-   
-
-// })
 

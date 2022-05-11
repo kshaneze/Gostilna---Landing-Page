@@ -65,7 +65,7 @@ footer {
             padding-right: 1rem;
 
             i{
-                font-size: 2.3rem;
+                font-size: 2.3vw;
             }
     
             img {
@@ -86,4 +86,37 @@ footer {
            margin-left: 3rem;
        }
    }
+}
+
+//////////////////////////////////////
+// RESPONSIVE
+@include media-breakpoint-down(lg) {
+   .row-form {
+       .col-lg-4 {
+           padding: 0;
+           margin-top: 2rem;
+           border-right: 0 !important;
+       }
+   }
+}
+
+@include media-breakpoint-down(xl) {
+    .col-lg-4 {
+       
+        padding: 0 !important;
+        width: 100%;
+        border-right: 0 !important;
+        margin-bottom: 8rem;
+
+        p {
+            font-size: 1.1rem;
+        }
+
+        .text-container,
+        .icons-container {
+            padding-left: 3rem;
+        }  
+    }
+
+    
 }

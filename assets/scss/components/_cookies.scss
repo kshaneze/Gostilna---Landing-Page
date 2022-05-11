@@ -57,3 +57,13 @@
         
     
 }
+
+@include media-breakpoint-down(lg) {
+    .section__4 {
+        .circle__text-wrapper {
+            width: 15rem;
+            height: 15rem;
+        }
+    }
+        
+}

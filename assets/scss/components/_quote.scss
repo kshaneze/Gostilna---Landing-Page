@@ -5,6 +5,8 @@
      .text {
          position: relative;
         z-index: 50;
+
+        font-size: 1.5vw;
      }
 
     .quote__top-wraper {
@@ -13,7 +15,7 @@
         gap: 2rem;
 
         .line-top {
-            width: 22rem;
+            width: 22vw;
             height: 0.05rem;
             background-color: black ;
             
@@ -26,7 +28,7 @@
         position: relative;
 
         .line-bottom {
-            width: 18rem;
+            width: 18vw;
             height: 0.05rem;
             background-color: black ; 
             align-self: center;
@@ -46,6 +48,46 @@
     }
 }
 
-
-
- 
+@include media-breakpoint-down(lg) {
+    .quote {
+        margin-top: 2rem;
+        
+        .quote__top-wraper {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+    
+            .line-top {
+                width: 10rem;
+                height: 0.05rem;
+                background-color: black ;
+                
+            }
+        }
+    
+        .quote__bottom-wraper {
+            margin-top: -0.7rem;
+            gap: 2rem;
+            position: relative;
+    
+            .line-bottom {
+                width: 8rem;
+                height: 0.05rem;
+                background-color: black ; 
+                align-self: center;
+            }
+        }
+    
+        i {
+            font-size: 1.8rem;
+        }
+        .quote-right {
+            position: absolute;
+            top: 20%;
+            right: 5%;
+            color: white;
+            font-size: 4rem;
+            z-index: 1;
+        }
+    }
+}
