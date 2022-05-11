@@ -49,3 +49,12 @@
 p {
     font-size: 0.9vw;
 }
+
+@include media-breakpoint-down(lg) {
+    p {
+        font-size: 1.5vw
+    }
+
+
+    
+}
