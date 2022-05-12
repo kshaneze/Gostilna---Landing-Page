@@ -71,6 +71,14 @@ p {
     font-size: 14px;
 }
 
+.georgia-italic-footer {
+    font-family: georgia-italic-bold;
+    font-style: italic;
+    font-size: 16px;
+}
+
+
+
 @include media-breakpoint-down(lg) {
     p {
         font-size: 1.5vw

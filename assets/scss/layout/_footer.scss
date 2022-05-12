@@ -32,11 +32,18 @@
 
 .novicnik {
     background-color: #473E33;
+   
 
     .container-fluid {
         background-color: #F8F0EB;
 
         .container {
+            padding-bottom: 2rem;
+            .novicnik-text {
+                    font-size: 14px;
+                    font-family: 'Source Sans Pro', sans-serif; 
+                    color: #483C2D;
+            }
             
             input {
                 padding: 0.9rem;
@@ -49,13 +56,15 @@
 
 footer {
     background-color: #473E33;
-   
+    
     a {
         color: white;
-        
+    }
+
+    a:hover {
+        color: inherit;
     }
     .social-icons {
-        
         display: flex;
         justify-content: center;
         align-items: center;
