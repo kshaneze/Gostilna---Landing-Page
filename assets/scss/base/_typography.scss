@@ -1,6 +1,6 @@
 .columnsHeadings {
     h4 {
-        font-family: Butler-Black;
+        font-family: 'Source Sans Pro', sans-serif;
     }
 }
 
@@ -10,6 +10,7 @@
     color: #483C2D;
     text-transform: uppercase;
     font-weight: 400;
+    
 }
 
 .display-3-brown {
@@ -17,10 +18,11 @@
     color: #483C2D;
     text-transform: uppercase;
     font-weight: 400;
+    
 }
 
 .display-4-black {
-        font-size: 2.8vw;
+        font-size: 2.43vw;
         color: black;
         text-transform: uppercase;
         font-weight: 400;
@@ -32,6 +34,7 @@
     color: black;
     text-transform: uppercase;
     font-weight: 400;
+    
 
 }
 
@@ -48,6 +51,24 @@
 
 p {
     font-size: 0.9vw;
+    
+}
+
+.georgia-italic {
+    font-family: georgia-italic-bold;
+    font-style: italic;
+    font-size: 16px;
+    color: #969696;
+}
+
+.butler-heading {
+    font-family: Butler;
+    font-size: 24px;
+}
+
+.sub-heading  {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
 }
 
 @include media-breakpoint-down(lg) {

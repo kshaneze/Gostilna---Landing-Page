@@ -5,8 +5,10 @@
      .text {
          position: relative;
         z-index: 50;
-
-        font-size: 1.5vw;
+        font-family: georgia-italic;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 1.6vw;
      }
 
     .quote__top-wraper {
@@ -27,6 +29,12 @@
         gap: 2rem;
         position: relative;
 
+        .text-small-name {
+            font-family: 'Source Sans Pro', sans-serif;
+            font-style: italic;
+            font-size: 14px;
+        }
+
         .line-bottom {
             width: 18vw;
             height: 0.05rem;
@@ -35,9 +43,7 @@
         }
     }
 
-    i {
-        font-size: 2.8rem;
-    }
+    
     .quote-right {
         position: absolute;
         top: 20%;
@@ -69,6 +75,10 @@
             margin-top: -0.7rem;
             gap: 2rem;
             position: relative;
+
+            .sans-pro {
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
     
             .line-bottom {
                 width: 8rem;
@@ -78,9 +88,7 @@
             }
         }
     
-        i {
-            font-size: 1.8rem;
-        }
+       
         .quote-right {
             position: absolute;
             top: 20%;
