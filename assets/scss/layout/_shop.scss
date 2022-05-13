@@ -6,8 +6,6 @@
 
     .card {
         padding: 0 3rem;
-        
-        
         .wrapper-image {
             margin-top: 10rem;
             height: 20rem;
@@ -16,9 +14,6 @@
             align-items: flex-end;
         }
     }
-
-    
-
 
     .carousel {
         
@@ -33,11 +28,7 @@
             opacity: 0;
             transition: all .4s ease;
            
-        }   
-
-        
-
-    
+        }  
     }
 
     .slide-next {
