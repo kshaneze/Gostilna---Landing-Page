@@ -97,7 +97,7 @@
 @include media-breakpoint-down(xxl) {
     .picContainer {
         .row   {
-            height: 58rem;
+            height: 52rem;
         }
           .pic2 {
               position: absolute;
@@ -139,6 +139,10 @@
         .quote {
             margin-top: 1rem;
         }
+    }
+
+    .nagrade {
+       
     }
 }
 

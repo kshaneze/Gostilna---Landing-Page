@@ -141,6 +141,26 @@ body {
 }
 
 
+@include media-breakpoint-down(xl) {
+
+    .container-fluid {
+        .zgodba {
+            border-right: 0 !important;
+        }
+    }
+}
+
+@include media-breakpoint-down(lg) {
+
+    .container-fluid {
+        .col-lg-6 {
+            border-right: 0 !important;
+        }
+    }
+}
+
+
+
 
 @include media-breakpoint-down(md) {
     .navbar {
