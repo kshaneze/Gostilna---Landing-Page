@@ -7,3 +7,27 @@
         font-size: 1vw;
     }
 }
+
+@include media-breakpoint-down(xl) {
+    .link-button {
+        img {
+            width: 2rem;
+        }
+
+        a {
+            padding-left: 0.6rem;
+        }
+    }
+}
+
+@include media-breakpoint-down(lg) {
+    .link-button {
+        img {
+            width: 1.2rem;
+        }
+
+        a {
+            padding-left: 0.3rem;
+        }
+    }
+}

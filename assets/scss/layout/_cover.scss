@@ -60,10 +60,11 @@
     .container-fluid-100 {
         width: 95%;
         float: right;
+        height: 75rem;
     }
 
     .first__col-5 {
-        padding-top: 10rem;
+        padding-top: 7rem;
     }
 }
 
@@ -87,6 +88,144 @@
         height: 12rem;
         border-right:  solid 0.1rem black;
     }
+}
+
+
+/////////////////////////
+// RESPONSIVE 
+
+@include media-breakpoint-down(xxl) {
+    .picContainer {
+        .row   {
+            height: 58rem;
+        }
+          .pic2 {
+              position: absolute;
+                // top: 47%;
+              right: -3%;
+              width: 38%;
+          }
+
+          .col-3 {
+            //   margin-top: 5rem !important;
+          }
+    }
+
+
+    .section__4 {
+        .container-fluid-100 {
+            height: 54rem;
+        }
+    
+        .first__col-5 {
+            padding-top: 5rem;
+        }
+
+        .quote {
+            margin-top: 2rem;
+        }
+    }
+
+    .prepustite__se--trenutkom {
+
+        .div {
+            margin-top: -5rem !important;
+            
+        }
+        .link-button {
+            padding-top: 1rem !important;
+    
+        }
+        .quote {
+            margin-top: 1rem;
+        }
+    }
+}
+
+
+@include media-breakpoint-down(xl) {
+    .img-zlica {
+        height: 25rem;
+       
+    }
+    .container-fluid-100 {
+        .col-text { 
+            padding: 2rem; 
+        }
+    }
+
+    /////////////////////////////
+    .picContainer {
+        margin-bottom: 15rem;
+        .row   {
+            height: 45rem;
+        }
+    
+        .col-md-6{
+            margin: 1px; 
+          } 
+    
+          .pic2 {
+              position: absolute;
+                // top: 40%;
+              right: 3%;
+              width: 30%;
+          }
+    }
+
+    .section__4 {
+        .container-fluid-100 {
+            height: 44rem;
+        }
+    
+        .first__col-5 {
+            padding-top: 5rem;
+        }
+
+        .quote {
+            margin-top: 2rem;
+        }
+    }
+}
+
+@include media-breakpoint-down(lg) {
+    .img-zlica {
+        height: 15rem;
+       
+    }
+
+    .picContainer {
+        .row   {
+            height: 34rem;
+        }
+    
+        .col-md-6{
+            margin: 1px; 
+          } 
+    
+          .pic2 {
+              position: absolute;
+                // top: 40%;
+              right: 8%;
+              width: 27%;
+          }
+    }
+
+    .section__4 {
+        .container-fluid-100 {
+            height: 34rem;
+        }
+    
+        .first__col-5 {
+            padding-top: 3rem;
+        }
+
+        .quote {
+            margin-top: 2rem;
+        }
+    }
+
+    
 }
 
 
