@@ -66,11 +66,55 @@
     
 }
 
+///////////////// RESPONSIVE
+@include media-breakpoint-down(xxl) {
+    .section__4 {
+        .circle__text-wrapper {
+            .cookie-text {
+                p {
+                    margin-top: 0.7rem !important;
+                    padding-top: 0.7rem !important;
+                }
+            }
+        }
+    }
+}
+
+@include media-breakpoint-down(xl) {
+    .section__4 {
+        .circle__text-wrapper {
+            .cookie-text {
+                p {
+                    margin-top: 0.5rem !important;
+                    padding-top: 0.5rem !important;
+                }
+            }
+        }
+    }
+}
+        
+
+
 @include media-breakpoint-down(lg) {
     .section__4 {
         .circle__text-wrapper {
             width: 15rem;
             height: 15rem;
+
+            .cookie-text {
+                p {
+                    margin-top: 0 !important;
+                    padding-top: 0 !important;
+                }
+            }
+
+            .link-button {
+                margin-top: -1rem;
+
+                img {
+                    width: 0.5rem;
+                }
+            }
         }
     }
         

@@ -107,6 +107,12 @@ footer {
            border-right: 0 !important;
        }
    }
+
+   footer {
+    .col-lg-6 {
+        border-bottom: 1px solid white;
+    }
+}
 }
 
 @include media-breakpoint-down(xl) {
@@ -127,5 +133,16 @@ footer {
         }  
     }
 
+    footer {
+        .col-eu-white {
+            border-right: 1px solid white;
+            height: 7rem;
+            margin-top: 0 !important;
+        }
+
+        .col-xl {
+            padding-top: 2rem;
+        }
+    }
     
 }
