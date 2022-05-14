@@ -111,6 +111,7 @@ footer {
    footer {
     .col-lg-6 {
         border-bottom: 1px solid white;
+
     }
 }
 }
@@ -143,6 +144,33 @@ footer {
         .col-xl {
             padding-top: 2rem;
         }
+    }
+
+    .novicnik {
+        .col-9 {
+            .col-xl-auto {
+                
+                margin-bottom: 1rem;
+            }
+        }
+
+        .btn {
+            width: 9rem;
+        }
+
+    .btn::before,
+    .btn::after {
+        width: 9rem;
+    }
+
+    .btn::before {
+        transform: translateY(-13px);
+        
+    }
+
+    .btn::after {
+        transform: translateY(32px);
+    }
     }
     
 }
