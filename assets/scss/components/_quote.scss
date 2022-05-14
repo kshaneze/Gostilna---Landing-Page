@@ -49,10 +49,26 @@
         top: 20%;
         right: 5%;
         color: white;
-        font-size: 9rem;
         z-index: 1;
     }
 }
+
+@include media-breakpoint-down(xl) { 
+    .quote { 
+        .quote-right {
+           width: 5rem;
+            height: auto;
+        }
+
+        .quote__top-wraper {
+            svg {
+                width: 1.85rem;
+                height: 1.85rem;
+            }
+        }
+    }
+}
+
 
 @include media-breakpoint-down(lg) {
     .quote {
@@ -91,11 +107,19 @@
        
         .quote-right {
             position: absolute;
-            top: 20%;
+            top: 25%;
             right: 5%;
             color: white;
-            font-size: 4rem;
+           width: 4rem;
+           height: auto;
             z-index: 1;
+        }
+
+        .quote__top-wraper {
+            svg {
+                width: 1.3rem;
+                height: 1.3rem;
+            }
         }
     }
 }

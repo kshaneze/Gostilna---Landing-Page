@@ -141,9 +141,6 @@
         }
     }
 
-    .nagrade {
-       
-    }
 }
 
 
@@ -190,6 +187,20 @@
             margin-top: 2rem;
         }
     }
+
+    .nagrade {
+        .gault {
+            border-right: solid 1px black;
+        }
+ 
+        .mojca {
+         border-right: none;
+        }
+
+        .trip {
+            border-right: none;
+        }
+     }
 }
 
 @include media-breakpoint-down(lg) {

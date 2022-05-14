@@ -46,3 +46,33 @@
     }
 }
 
+@include media-breakpoint-down(lg) {
+    .btn {
+        width: 6rem;
+        border-radius: 0;
+        color: white;
+        position: relative;
+        font-size: 1.40rem;
+        font-weight: 600;
+        font-size: 0.9rem;
+    }
+
+
+    .btn::before,
+    .btn::after {
+        position: absolute;
+        content: '';
+        width: 6rem;
+        height: 0.2rem;
+        left: 0;
+    }
+
+    .btn::before {
+        transform: translateY(-12px);
+        
+    }
+
+    .btn::after {
+        transform: translateY(9px);
+    }
+}

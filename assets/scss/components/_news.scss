@@ -22,6 +22,41 @@
     }
 }
 
+@include media-breakpoint-down(xl) {
+    .section__novice {
+        .col-lg-4 {
+            margin-top: 2rem;
+            border-right: 0 !important;
+            margin-bottom: 1rem;
+
+        }
+
+        .card {
+            padding: 0 4rem;
+
+            .card-title {
+                font-size: 2.5rem;
+            }
+
+            .card-text {
+                font-size: 1.6rem;
+            }
+        }
+
+        .link-button {
+            img {
+                width: 3rem;
+                height: auto;
+            }
+            a {
+                font-size: 1.6rem;
+            }
+        }
+
+    }
+}
+
+
 @include media-breakpoint-down(lg) {
     .section__novice {
         .col-lg-4 {
